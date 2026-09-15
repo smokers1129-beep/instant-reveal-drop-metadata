@@ -11,6 +11,8 @@ import { envFromRecord } from "../src/env";
 import { handleRequest } from "../src/handler";
 import { createRuntime, type Runtime } from "../src/runtime";
 
+export const runtime = "nodejs";
+
 
 let runtime: Runtime | null = null;
 let initError: Error | null = null;
