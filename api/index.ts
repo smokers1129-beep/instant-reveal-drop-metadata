@@ -11,7 +11,6 @@ import { envFromRecord } from "../src/env.ts";
 import { handleRequest } from "../src/handler.ts";
 import { createRuntime, type Runtime } from "../src/runtime.ts";
 
-export const config = { runtime: "edge" };
 
 let runtime: Runtime | null = null;
 let initError: Error | null = null;
