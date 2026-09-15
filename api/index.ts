@@ -6,10 +6,10 @@
  * here.
  */
 
-import { config as dropConfig } from "../drop.config.ts";
-import { envFromRecord } from "../src/env.ts";
-import { handleRequest } from "../src/handler.ts";
-import { createRuntime, type Runtime } from "../src/runtime.ts";
+import { config as dropConfig } from "../drop.config";
+import { envFromRecord } from "../src/env";
+import { handleRequest } from "../src/handler";
+import { createRuntime, type Runtime } from "../src/runtime";
 
 
 let runtime: Runtime | null = null;
